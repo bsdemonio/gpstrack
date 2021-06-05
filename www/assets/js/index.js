@@ -13,8 +13,8 @@ $(function() {
                 assetLayerGroup.addLayer(marker1);
                 assetLayerGroup.addTo(mymap);
                 mymap.setView([position.coords.latitude,position.coords.longitude],15);
-                /*$.ajax({
-                  url: "http://192.168.15.8/save",
+                $.ajax({
+                  url: "https://com-geored.uaa.mx/save",
                   type: "post",
                   data: {
                       cellNumber:localStorage.getItem("cellNumber"),
@@ -28,7 +28,7 @@ $(function() {
                   }
                 }).done(function() {
                   console.log('done');
-                });*/
+                });
                /*var element = document.getElementById('result');
                 element.innerHTML = 'Latitude: '  + position.coords.latitude      + '<br />' +
                                     'Longitude: ' + position.coords.longitude     + '<br />' +
