@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "gpsTrack",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
