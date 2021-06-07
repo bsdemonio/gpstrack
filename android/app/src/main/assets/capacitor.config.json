@@ -2,5 +2,8 @@
 	"appId": "io.ionic.starter",
 	"appName": "gpsTrack",
 	"webDir": "build",
-	"bundledWebRuntime": false
+	"bundledWebRuntime": false,
+	"server": {
+		"hostname": "https://com-geored.uaa.mx/"
+	}
 }

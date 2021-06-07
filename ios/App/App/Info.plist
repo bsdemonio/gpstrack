@@ -29,6 +29,22 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSAppTransportsecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>capacitor://localhost</key>
+			<dict>
+				<key>NSExceptionAllowInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>Application wants to use your location</string>
 	<key>NSLocationAlwaysUsageDescription</key>
